@@ -1,6 +1,6 @@
 USE [master]
 GO
-/****** Object:  Database [NartySerwisSklep]    Script Date: 23.05.2020 13:38:02 ******/
+/****** Object:  Database [NartySerwisSklep]    Script Date: 26.05.2020 16:27:56 ******/
 CREATE DATABASE [NartySerwisSklep]
  CONTAINMENT = NONE
  ON  PRIMARY 
@@ -87,7 +87,7 @@ ALTER DATABASE SCOPED CONFIGURATION SET QUERY_OPTIMIZER_HOTFIXES = OFF;
 GO
 USE [NartySerwisSklep]
 GO
-/****** Object:  Table [dbo].[Dostawcy]    Script Date: 23.05.2020 13:38:02 ******/
+/****** Object:  Table [dbo].[Dostawcy]    Script Date: 26.05.2020 16:27:56 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -109,7 +109,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Kategorie]    Script Date: 23.05.2020 13:38:02 ******/
+/****** Object:  Table [dbo].[Kategorie]    Script Date: 26.05.2020 16:27:56 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -126,7 +126,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Klienci]    Script Date: 23.05.2020 13:38:02 ******/
+/****** Object:  Table [dbo].[Klienci]    Script Date: 26.05.2020 16:27:56 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -150,7 +150,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Pracownicy]    Script Date: 23.05.2020 13:38:02 ******/
+/****** Object:  Table [dbo].[Pracownicy]    Script Date: 26.05.2020 16:27:56 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -176,7 +176,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Produkty]    Script Date: 23.05.2020 13:38:02 ******/
+/****** Object:  Table [dbo].[Produkty]    Script Date: 26.05.2020 16:27:56 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -194,7 +194,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[SzczegółyZamówienia]    Script Date: 23.05.2020 13:38:02 ******/
+/****** Object:  Table [dbo].[SzczegółyZamówienia]    Script Date: 26.05.2020 16:27:56 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -208,7 +208,7 @@ CREATE TABLE [dbo].[SzczegółyZamówienia](
 	[Ilość] [int] NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Zamówienia]    Script Date: 23.05.2020 13:38:02 ******/
+/****** Object:  Table [dbo].[Zamówienia]    Script Date: 26.05.2020 16:27:56 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
